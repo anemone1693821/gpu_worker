@@ -18,7 +18,7 @@ pip install gpu_worker
 Or install from source:
 
 ```bash
-git clone https://github.com/takuya/gpu_worker.git
+git clone https://github.com/anemone1693821/gpu_worker.git
 cd gpu_worker
 pip install -e .
 ```

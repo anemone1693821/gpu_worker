@@ -29,4 +29,4 @@ gpu-worker = "gpu_worker:main"
 
 [project.urls]
 Homepage = "https://gitart.me"
-Repository = "https://github.com/takuya/gpu_worker"
+Repository = "https://github.com/anemone1693821/gpu_worker"
