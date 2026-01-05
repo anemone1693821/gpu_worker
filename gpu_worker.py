@@ -209,11 +209,10 @@ def worker_loop(api_key):
         log(f"Detected {len(gpus)} GPU(s)")
         for g in gpus:
             log(f"  GPU {g['index']}: {g['name']} ({g['memory']})")
+        gpu_info = {'name': gpus[0]['name'], 'memory': gpus[0]['memory']}
     else:
         log("No GPU detected")
-        return
-
-    gpu_info = {'name': gpus[0]['name'], 'memory': gpus[0]['memory']}
+        gpu_info = {}
 
     # Detect available models
     models = detect_models()
